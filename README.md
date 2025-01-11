@@ -1,1 +1,62 @@
-# crud-streamlit
+# Criando um CRUD no Streamlit com Docker
+
+Este vídeo demonstra como criar uma aplicação CRUD (Create, Read, Update, Delete) usando o Streamlit e o método `st.data_editor`. O aplicativo é desenvolvido para gerenciamento de tarefas, onde é possível adicionar, editar e excluir tarefas diretamente em uma interface amigável e interativa.
+
+Além disso, o projeto utiliza Docker e Docker Compose para configurar o ambiente de desenvolvimento, facilitando a execução da aplicação em qualquer sistema.
+
+<!--
+https://www.youtube.com/@renato-coelho
+-->
+
+## Apresentação em Vídeo
+
+<p align="center">
+  <a href="https://www.youtube.com/@renato-coelho" target="_blank"><img src="imagens/thumbnail/thumbnail-crud-streamlit-github.png" alt="Vídeo de apresentação"></a>
+</p>
+
+### Requisitos
+
++ ![Git](https://img.shields.io/badge/Git-2.25.1%2B-E3E3E3)
+
++ ![Docker](https://img.shields.io/badge/Docker-20.10%2B-E3E3E3)
+
++ ![Docker Compose](https://img.shields.io/badge/Docker%20Compose-1.29.0%2B-E3E3E3)
+
++ ![Streamlit](https://img.shields.io/badge/Streamlit-1.41.1-E3E3E3)
+
+
+## Deploy da aplicação
+
+### Clonando o repositório
+
+```bash
+git clone https://github.com/Renatoelho/crud-streamlit.git crud-streamlit
+```
+
+### Configurando o ambiente com Docker
+
++ Acesse o diretório do projeto:
+```bash
+cd crud-streamlit/
+```
+
++ Execute o comando para subir aplicação:
+```bash
+docker compose -p crud-streamlit -f docker-compose.yaml up -d --build
+```
+
+> ***OBS.:*** Para acessar o App, utilize o endereço: [http://localhost:8501](http://localhost:8501)
+
+# Tela do App CRUD
+
+<p align="center">
+  <img src="imagens/app/tela-app.png" alt="Tela do App CRUD"></a>
+</p>
+
+# Referências
+
+- data_editor, **Streamlit.** Disponível em: <https://docs.streamlit.io/develop/api-reference/data/st.data_editor>. Acesso em: 10 jan. 2025.
+
+- container, **Streamlit.** Disponível em: <https://docs.streamlit.io/develop/api-reference/layout/st.container#stcontainer>. Acesso em: 10 jan. 2025.
+
+- pandas.to_csv, **Pandas.** Disponível em: <https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_csv.html>. Acesso em: 10 jan. 2025.
