@@ -62,11 +62,11 @@ docker compose -p crud-streamlit -f docker-compose.yaml up -d --build
 
 # Referências
 
-- data_editor, **Streamlit.** Disponível em: <https://docs.streamlit.io/develop/api-reference/data/st.data_editor>. Acesso em: 10 jan. 2025.
+data_editor, **Streamlit.** Disponível em: <https://docs.streamlit.io/develop/api-reference/data/st.data_editor>. Acesso em: 10 jan. 2025.
 
-- container, **Streamlit.** Disponível em: <https://docs.streamlit.io/develop/api-reference/layout/st.container#stcontainer>. Acesso em: 10 jan. 2025.
+container, **Streamlit.** Disponível em: <https://docs.streamlit.io/develop/api-reference/layout/st.container#stcontainer>. Acesso em: 10 jan. 2025.
 
-- pandas.to_csv, **Pandas.** Disponível em: <https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_csv.html>. Acesso em: 10 jan. 2025.
+pandas.to_csv, **Pandas.** Disponível em: <https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_csv.html>. Acesso em: 10 jan. 2025.
 
 Dockerfile overview, **Docker Docs**.  Disponível em: <https://docs.docker.com/build/concepts/dockerfile/>. Acesso em: 11 Jan. 2025.
 
