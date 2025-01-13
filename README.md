@@ -16,7 +16,7 @@ Atividade05;Ler um capítulo de um livro de ficção;True
 ## Apresentação em Vídeo
 
 <p align="center">
-  <a href="https://www.youtube.com/@renato-coelho" target="_blank"><img src="imagens/thumbnail/thumbnail-crud-streamlit-github.png" alt="Vídeo de apresentação"></a>
+  <a href="https://youtu.be/lo0RypWRzpM" target="_blank"><img src="imagens/thumbnail/thumbnail-crud-streamlit-github.png" alt="Vídeo de apresentação"></a>
 </p>
 
 ### Requisitos
